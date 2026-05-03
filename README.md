@@ -1,1 +1,3 @@
-# customer_behaviour_analysis
+This project presents an end-to-end data analytics solution built to analyze retail customer purchasing behavior. The dataset containing 3900+ records was cleaned and preprocessed using Python (Pandas, NumPy) in Jupyter Notebook, handling null values through mode and group-wise mean imputation techniques.
+The cleaned data was transferred to MySQL using SQLAlchemy, where complex SQL queries involving CTEs, Window Functions (RANK, DENSE_RANK), customer segmentation, and discount analysis were performed.
+Finally, an interactive Power BI dashboard was built with 2 report pages featuring KPI cards, bar charts, Top/Bottom N filters, and custom DAX measures to deliver actionable business insights on revenue, customer behavior, and product performance.
